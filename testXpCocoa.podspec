@@ -20,10 +20,12 @@ Pod::Spec.new do |spec|
   spec.author       = { "肖鹏" => "xiaopeng@upplus.net" }
   spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/xiaopeng11/testXpCocoa.git", :tag => "1.0.0" }
-
-  spec.source_files = "testXpCocoa/*.{h,m}"
   spec.frameworks   = "UIKit","AVFoundation","Foundation"
-  spec.resources    = "testXpCocoa/*.png"
+  
+  spec.source_files = "QRCode/*.{h,m}"
+  spec.resources    = "Resources/*.png"
+
+
 
 
 end
