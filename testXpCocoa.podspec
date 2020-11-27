@@ -22,8 +22,8 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/xiaopeng11/testXpCocoa.git", :tag => "1.0.0" }
   spec.frameworks   = "UIKit","AVFoundation","Foundation"
   
-  spec.source_files = "testXpCocoa/*.{h,m}"
-  spec.resources    = "testXpCocoa/Resources.bundle/*.png"
+  spec.source_files = "QRCode/*"
+  spec.resources    = "Resources/*"
 
 
 
